@@ -1,0 +1,24 @@
+# Authentication and secrets
+kaggle.json
+.env
+.env.*
+*.key
+# Downloaded competition data
+data/
+train.csv
+test.csv
+sample_submission.csv
+# Python and notebook artifacts
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+.pytest_cache/
+# Models and experiments
+models/
+catboost_info/
+optuna.db
+*.pkl
+*.joblib
+.DS_Store
